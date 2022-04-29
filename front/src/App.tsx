@@ -28,7 +28,9 @@ function App(): JSX.Element {
         >
           Learn React
         </a>
-        <p>{data?.id} {data?.name}</p>
+        <p>
+          {data?.id} {data?.name}
+        </p>
       </header>
     </div>
   )
